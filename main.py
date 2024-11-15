@@ -21,6 +21,7 @@ class BotGameTurn:
 
 class BotGame:
     def __init__(self, player_num=None):
+        print("Starting botgame")
         self.player_num = player_num
         self.initial_state = None
         self.turn_states = []
